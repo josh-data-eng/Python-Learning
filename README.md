@@ -1,0 +1,1 @@
+This is a folder of my Python development journey of how i go from basic to advanced    

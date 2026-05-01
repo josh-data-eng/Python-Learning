@@ -36,3 +36,4 @@ date = "1-5-2026"
 print(date.split("-"))
 print(date.replace("0","5"))
 print(f"my name is {full_name} iam {age} iam {height}cm tall my birthday is {date}")
+
