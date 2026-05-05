@@ -6,7 +6,7 @@ import math
 # Ask the user for two numbers and print their sum.
 a = int(input("First number :"))
 b = int(input("Second number :"))
-print(a * b)
+print(a + b)
 
 # challenge 2
 # Store two numbers. Print their product and their division result
