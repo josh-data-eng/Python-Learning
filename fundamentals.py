@@ -1,82 +1,43 @@
-# DATA TYPES
-from datetime import date
+# NUMBER
+import math
+# CHALLENGES
+
+# challenge 1
+# Ask the user for two numbers and print their sum.
+a = int(input("First number :"))
+b = int(input("Second number :"))
+print(a * b)
+
+# challenge 2
+# Store two numbers. Print their product and their division result
+x = 20
+y = 100
+print(x * y)
+print(x / y)
 
 
-name = "Josh"
-age = 23
-student = True
-height = 25.4
-
-# PRINT FUNCTION
-#print(type(name))
-#print(type(age))
-#print(type(student))
-#print(type(height))
-
-#ESCAPE SEQUENCE
-#print('''Your Learning
-      #-Python Basics
-      #-Data Engineering
-      #-AI''')
-
-# INPUT FUNCTION
-#first_name = input("Enter Firstname:")
-#last_name = input("Enter Lastname:")
-#age = input("Enter Age:")
-#full_name = first_name +" " + last_name
-#print(full_name)
-
-#SLICING AND INDEXING
-#full_name = "Joshua Ihimire"
-#print(full_name[7])
-#print(full_name[0:6])
-#print(full_name[-7:])
-#print(full_name[::2])
-
-#print("-" *20)
-
-#date = "1-5-2026"
-#print(date.split("-"))
-#print(date.replace("0","5"))
-#print(f"my name is {full_name} iam {age} iam {height}cm tall my birthday is {date}")
+# challenge 3
+# print area of triangle
+constant = 0.5
+base = 20
+height = 33
+area = constant *(base * height)
+print(area)
 
 
-#STRINGS CHALLENGES FROM CLAUDE AI
+# challenge 4
+# Calculate and print the perimeter of rectangle
+width = 20
+height = 50
+perimeter = 2 *(width + height)
+print(perimeter)
 
-#challenge 1
-user_name = input("Enter name:")
-print(user_name.upper())
 
-#challenge 2
-user_hobby = "i love Learning Python"
-print(user_hobby.count("o"))
+# challenge 5
+#average of 3 numbers
+a = 20
+b = 30.55
+c = 1.4
+average = (a + b + c) / 3
+print(average)
 
-#challenge 3
-user_feels = " python is fun "
-print(user_feels.strip())
-
-#challenge 4
-user_email = input("Enter email: ")
-print(user_email.endswith("@gmail.com"))
-
-#challenge 5
-user_says = "Python is fun to learn"
-print(user_says.replace(" ", "-"))
-
-#challenge 6
-word = input("Enter a Word:")
-print(word[::-1])
-
-#challenge 7
-name = "big josh"
-print(name.title())
-
-#challenge 8
-word = input("Enter Word:")
-print(word==word[::-1])
-
-#challenge 9
-sentence = input("Enter a sentence :")
-print(len(sentence.split()))
-
-#challenge 10
