@@ -1,43 +1,18 @@
-# NUMBER
-import math
-# CHALLENGES
+for number in range(0, 11, 2):
+    print(number)
 
-# challenge 1
-# Ask the user for two numbers and print their sum.
-a = int(input("First number :"))
-b = int(input("Second number :"))
-print(a + b)
+fruits = ["banana", "lemon", "cherry", "mango", "orange"]
+for fruit in fruits:
+    print(fruit)
 
-# challenge 2
-# Store two numbers. Print their product and their division result
-x = 20
-y = 100
-print(x * y)
-print(x / y)
+scores = [20, 33, 78, 18]
+total = 0
+for score in scores:
+    total += score
+    print(total)
+print("Final total:", total)
 
-
-# challenge 3
-# print area of triangle
-constant = 0.5
-base = 20
-height = 33
-area = constant *(base * height)
-print(area)
-
-
-# challenge 4
-# Calculate and print the perimeter of rectangle
-width = 20
-height = 50
-perimeter = 2 *(width + height)
-print(perimeter)
-
-
-# challenge 5
-#average of 3 numbers
-a = 20
-b = 30.55
-c = 1.4
-average = (a + b + c) / 3
-print(average)
-
+files = [' report.csv', 'DATA.csv',' josh.jpg ']
+for file in files:
+    file = file.strip().lower().replace('.jpg', '.csv')
+    print(f"processed {file}")
