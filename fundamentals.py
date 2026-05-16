@@ -1,18 +1,22 @@
-for number in range(0, 11, 2):
-    print(number)
+# BREAK STATEMENT
+names = ['John', 'Shalom', 'Abigail', '', 'Naomi']
+for name in names:
+    if name == '':
+        print('empty value detected')
+        break
+    print(f'NAME: {name}')
 
-fruits = ["banana", "lemon", "cherry", "mango", "orange"]
-for fruit in fruits:
-    print(fruit)
+    # CONTINUE STATEMENT
+countries = ['USA', 'England', 'India', '', 'Turkey']
+for country in countries:
+    if country == '':
+        print('empty value detected')
+        continue
+    print(f'COUNTRY: {country}')
 
-scores = [20, 33, 78, 18]
-total = 0
-for score in scores:
-    total += score
-    print(total)
-print("Final total:", total)
-
-files = [' report.csv', 'DATA.csv',' josh.jpg ']
-for file in files:
-    file = file.strip().lower().replace('.jpg', '.csv')
-    print(f"processed {file}")
+    # PASS STATEMENT
+    days = ['WED', 'THUR', '', 'SUN', 'FRI']
+for day in days:
+    if day == '':
+        pass
+    print(f'DAY: {day}')
